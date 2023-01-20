@@ -69,7 +69,7 @@ body {
 
 .location > .view {
   font-size: 11px;
-  padding-left: 12px;
+  padding-left: 10px;
   color: #918e9b;
   text-decoration: underline;
   cursor: pointer;
@@ -77,6 +77,10 @@ body {
 
 .location-name {
   margin-top: 5px;
+}
+
+.location-name > h1 {
+  font-size: 29px;
 }
 
 .travel-date {
@@ -94,5 +98,5 @@ body {
 }
 
 .travel-desc > p {
-  font-size: 10.3px;
+  font-size: 10.2px;
 }

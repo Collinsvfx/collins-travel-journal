@@ -1,7 +1,10 @@
 import Image1 from "../src/images/Image1.png";
+import Image2 from "../src/images/Image2.png";
+import Image3 from "../src/images/Image3.png";
 
 const database = [
   {
+    id: "001",
     title: "Mount Fuji",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -12,8 +15,26 @@ const database = [
     imageUrl: Image1,
   },
   {
+    id: "002",
     title: "Sydney Opera House",
     location: "Australia",
+    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    startDate: "27 May, 2021",
+    endDate: "8 Jun, 2021",
+    description:
+      "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
+    imageUrl: Image3,
+  },
+  {
+    id: "003",
+    title: "Geirangerfjord",
+    location: "Norway",
+    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    startDate: "01 Oct, 2021",
+    endDate: "18 Nov, 2021",
+    description:
+      "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
+    imageUrl: Image2,
   },
 ];
 
