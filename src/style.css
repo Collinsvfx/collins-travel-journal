@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dfdddd;
+  font-family: "inter";
+}
+
+.App {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.header-cont {
+  background-color: #f55a5a;
+  width: 100%;
+  height: 55px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo-container > span {
+  margin-left: 7px;
+}
+
+.main-cont {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bg-purpose {
+  background-color: white;
+  width: 100%;
+  height: 704px;
+}
+
+.travel-card {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.card-others {
+  padding-left: 19px;
+}
+
+.location > img {
+  width: 7px;
+  height: 9.55px;
+}
+
+.location > .country {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding-left: 7px;
+}
+
+.location > .view {
+  font-size: 11px;
+  padding-left: 12px;
+  color: #918e9b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.location-name {
+  margin-top: 5px;
+}
+
+.travel-date {
+  margin-top: 10px;
+}
+
+.travel-date > span {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #2b283a;
+}
+
+.travel-desc {
+  margin-top: 6px;
+}
+
+.travel-desc > p {
+  font-size: 10.3px;
+}
